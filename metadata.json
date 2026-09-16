@@ -1,0 +1,6 @@
+{
+  "name": "Circle Post",
+  "description": "সার্কেল পোস্ট – পুরনো দিনের অনুভূতি, আজকের ভালোবাসার জন্য। অনলাইনে তৈরি করুন সুন্দর ভিন্টেজ প্রেমপত্র ও পোস্টকার্ড।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-bengali-serif {
+    font-family: 'Noto Serif Bengali', serif;
+  }
+  .font-tiro {
+    font-family: 'Tiro Bangla', serif;
+  }
+  .font-anek {
+    font-family: 'Anek Bangla', sans-serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-typewriter {
+    font-family: 'Special Elite', 'Courier Prime', monospace;
+  }
+  .font-calligraphy {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-garamond {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom Vintage Light Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f3ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cfc4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5aa9c;
+}
+
+/* Realistic Stamp Serrated Edge */
+.stamp-serrated {
+  background-color: #f7f1e3;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  background-image: 
+    radial-gradient(circle at 0% 50%, transparent 4px, #f7f1e3 4.5px),
+    radial-gradient(circle at 100% 50%, transparent 4px, #f7f1e3 4.5px);
+  background-size: 100% 12px;
+}
+
+/* Postcard Paper Noise Overlay */
+.vintage-paper-bg {
+  background-color: #1a1613;
+  background-image: radial-gradient(rgba(197, 168, 128, 0.05) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Postcard Filter Effects */
+.effect-original {
+  filter: contrast(1.02) saturate(1.05);
+}
+.effect-sepia {
+  filter: sepia(0.75) contrast(1.08) brightness(0.96);
+}
+.effect-old-paper {
+  filter: sepia(0.5) hue-rotate(5deg) contrast(0.95) brightness(0.98);
+}
+.effect-faded {
+  filter: contrast(0.85) saturate(0.65) brightness(1.05);
+}
+.effect-black-white {
+  filter: grayscale(1) contrast(1.2) brightness(0.92);
+}
+.effect-film-grain {
+  filter: contrast(1.15) saturate(0.9) brightness(0.95);
+}
+.effect-dust-scratch {
+  filter: sepia(0.3) contrast(1.1) brightness(0.94);
+}
+.effect-coffee-stain {
+  filter: sepia(0.6) hue-rotate(-8deg) contrast(1.08) brightness(0.92);
+}
+.effect-warm-vintage {
+  filter: sepia(0.4) saturate(1.25) contrast(1.05) brightness(0.97);
+}
